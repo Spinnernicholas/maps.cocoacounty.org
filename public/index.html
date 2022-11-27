@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="title" content="Contra Costa County Election Maps">
+        <meta name="description" content="Interactive Election maps for Contra Costa County">
+        <meta name="keywords" content="election, contra costa county, map, cocoa county">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="Nick Spinner">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://maps.cocoacounty.org/">
+        <meta property="og:title" content="Contra Costa County Election Maps">
+        <meta property="og:description" content="Interactive Election maps for Contra Costa County">
+        <meta property="og:image" content="https://maps.cocoacounty.org/map.png">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://maps.cocoacounty.org/">
+        <meta property="twitter:title" content="Contra Costa County Election Maps">
+        <meta property="twitter:description" content="Interactive Election maps for Contra Costa County">
+        <meta property="twitter:image" content="https://maps.cocoacounty.org/map.png">
+        <title>Contra Costa County Election Results</title>
+        <style>
+            h1,h2,h3{
+                text-align: center;
+            }
+
+            div#content, img {
+                margin:auto;
+                max-width: 600px;
+            }
+        </style>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2C93EHSFF"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-K2C93EHSFF');
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <h1>Contra Costa County Election Maps</h1>
+            <h2>Created by <a href="https://github.com/spinnernicholas">Nick Spinner</a> | <a href="https://github.com/Spinnernicholas/InteractiveElectionMap">Support the Project</a></h2>
+            <h3>Primary 2022</h3>
+            <a href="https://maps.cocoacounty.org/coco-primary-2022/">Final Results</a>
+            <h3>General 2022</h3>
+            <p>I added maps for the end of night tabulation results so we can see how the counts evolved as more ballots were counted. Final results still outstanding as of November 16th 2022.</p>
+            <a href="https://maps.cocoacounty.org/coco-general-2022/nov08/index.html">November 8th Election Night</a><br/>
+            <a href="https://maps.cocoacounty.org/coco-general-2022/nov09/index.html">November 9th</a><br/>
+            <a href="https://maps.cocoacounty.org/coco-general-2022/nov10/index.html">November 10th</a><br/>
+            <a href="https://maps.cocoacounty.org/coco-general-2022/nov16/index.html">November 16th</a><br/>
+            <a href="https://maps.cocoacounty.org/coco-general-2022/nov18/index.html">November 18th</a><br/>
+            <a href="https://maps.cocoacounty.org/coco-general-2022/nov23/index.html">November 23rd</a><br/>
+            <h2>Instructions</h2>
+            <p>Select desired race in the menu in the bottom.</p>
+            <ul>
+                <li>Opacity: Set the precinct transparency so you can see the map</li>
+                <li>First Dropdown: Select Race</li>
+                <li>Second Dropdown:
+                    <ul>
+                        <li>WINNER BY PRECINCT: Highlights the winner in each precinct</li>
+                        <li>Candidate/Choice: Heatmap | The darker the precinct, the higher the vote percentage</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="map.png">
+        </div>
+    </body>
+</html>
